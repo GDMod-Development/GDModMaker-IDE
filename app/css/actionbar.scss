@@ -1,0 +1,99 @@
+.actionbar {
+    font-size: 12px;
+    background-color: #323232;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 29px;
+    width: 100vw;
+    border-bottom: 4px solid #1e1e1e;
+    -webkit-app-region: drag;
+
+    * {
+        margin: 0;
+        user-select: none;
+    }
+
+    span {
+        display: flex;
+    }
+
+    .main {
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            margin: 0 7px;
+            width: 22px;
+            height: 22px;
+        }
+
+        .utility {
+            margin: 0 9px;
+
+            a {
+                padding: 2px 5px;
+                border-radius: 3px;
+                color: #fff;
+                text-decoration: none;
+                
+                &:hover {
+                    background-color: #ffffff1a;
+                    cursor: pointer;
+                }
+                
+                &:active {
+                    background-color: #ffffff2a;
+                }
+            }
+        }
+    }
+
+    .workspace {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        font-size: 11px;
+    }
+
+    button {
+        z-index: 1;
+        appearance: none;
+        background-color: #0000;
+        color: #fff6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 46px;
+        height: 29px;
+        border: none;
+        -webkit-app-region: no-drag;
+
+        &:hover {
+            background-color: #ffffff1a;
+            color: #fff9;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: #ffffff2a;
+            color: #fffc;
+        }
+
+        &.close {
+            &:hover {
+                background-color: #ff3333;
+                transition: 100ms;
+                color: #fff;
+            }
+
+            &:active {
+                color: #fff;
+            }
+        }
+    }
+}

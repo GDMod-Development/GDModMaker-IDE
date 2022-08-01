@@ -1,0 +1,88 @@
+.actionbar {
+  font-size: 12px;
+  background-color: #323232;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 29px;
+  width: 100vw;
+  border-bottom: 4px solid #1e1e1e;
+  -webkit-app-region: drag;
+}
+.actionbar * {
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.actionbar span {
+  display: flex;
+}
+.actionbar .main {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.actionbar .main .logo {
+  margin: 0 7px;
+  width: 22px;
+  height: 22px;
+}
+.actionbar .main .utility {
+  margin: 0 9px;
+}
+.actionbar .main .utility a {
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+.actionbar .main .utility a:hover {
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  cursor: pointer;
+}
+.actionbar .main .utility a:active {
+  background-color: rgba(255, 255, 255, 0.1647058824);
+}
+.actionbar .workspace {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 11px;
+}
+.actionbar button {
+  z-index: 1;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 29px;
+  border: none;
+  -webkit-app-region: no-drag;
+}
+.actionbar button:hover {
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.actionbar button:active {
+  background-color: rgba(255, 255, 255, 0.1647058824);
+  color: rgba(255, 255, 255, 0.8);
+}
+.actionbar button.close:hover {
+  background-color: #ff3333;
+  transition: 100ms;
+  color: #fff;
+}
+.actionbar button.close:active {
+  color: #fff;
+}/*# sourceMappingURL=actionbar.css.map */
