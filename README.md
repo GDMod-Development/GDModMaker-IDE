@@ -4,7 +4,7 @@ The main functionality of GDMod, written in HTML.
 ## Want to run this repository?
 
 ### Prerequisites
-- Nodejs and NPM installed
+- Nodejs and npm / yarn installed
 - Knowledge of the command line
 
 ### Git installed
