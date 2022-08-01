@@ -30,6 +30,7 @@ npm run start
 npm 
 npm run start
 ```
+
 ## Just want to use the app?
 1. Click `Releases` > Scroll Down > `GDModMaker-[your OS].exe`
 2. Run app
