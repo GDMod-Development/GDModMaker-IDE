@@ -28,13 +28,14 @@
 }
 .actionbar .main .logo {
   margin: 0 7px;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
 }
 .actionbar .main .utility {
   margin: 0 9px;
 }
 .actionbar .main .utility a {
+  -webkit-app-region: no-drag;
   padding: 2px 5px;
   border-radius: 3px;
   color: #fff;

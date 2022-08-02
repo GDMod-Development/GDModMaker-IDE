@@ -1,6 +1,6 @@
 {
   "name": "gdmodmaker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Open-Source mod creation software for Geometry Dash.",
   "main": "main.js",
   "scripts": {
